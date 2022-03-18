@@ -47,19 +47,20 @@ class _MyHomePageState extends State<MyHomePage> {
           Icon(Icons.share),
         ],
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'Souさん',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
+      body: Row(
+        // mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            'Souさん',
+          ),
+          Text('とてもわかる'),
+          Text('とてもわかる'),
+          Text('とてもわかる'),
+          Text(
+            '$_counter',
+            style: Theme.of(context).textTheme.headline4,
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
