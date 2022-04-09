@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Row(
         // mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text("Lightning Memo"),
+          Text("ここに書く"),
           Text(''),
           Text(
             '$_counter',
