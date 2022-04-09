@@ -50,12 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Row(
         // mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
-            'Souさん',
-          ),
-          Text('とてもわかる'),
-          Text('とてもわかる'),
-          Text('とてもわかる'),
+          Text("Lightning Memo"),
+          Text(''),
           Text(
             '$_counter',
             style: Theme.of(context).textTheme.headline4,
